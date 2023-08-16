@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
+  background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+/*Screen1 */
+main{
+  border-radius: .5rem;
+  background: #FFF;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+  display: flex;
+  width: 42.8rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+
+  width: 25rem;
+  margin-bottom: 1.4rem;
+}
+
+main p {
+
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+  margin-bottom: 2.6rem;
+  opacity: 0.8;
+}
+
+main h1 p {
+  color: #34355B;
+}
+
+main button {
+  width: 24.8rem;
+  height: 19rem;
+
+  border: none;
+  background-color: transparent;
+}
+
+main button:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+/*Screen2*/
+
+ h2  {
+  color: #34355B;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  margin-bottom: 2.7rem;
+}
+
+.frase {
+  color: #000;
+  text-align: center;
+  
+  width: 20rem;
+  height: 8.3rem;
+
+  background: #E4EDF1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+
+  display: flex;
+  flex-direction: row;
+  
+  padding: 2rem 1rem 0 1rem;
+    
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.frase:hover {
+  background-color: #e4edf1b7;
+}
+
+.frase p{
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  color: #000;
+    
+}
+
+.screen2 img {
+  margin-top: 2.7rem;
+  margin-bottom: 1.7rem;
+  display: flex;
+  width: 300px;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen2 button{
+  background-color: #FF9500;
+  padding: 1.6rem;
+  border-radius: .4rem;
+  color: white;
+  font-size: 1.5rem;
+
+  width: 17rem;
+  height: 5.2rem;
+  
+  margin-left: 6rem;
+}
+
+.screen2 button:hover {
+  background-color: #ff9500a2;
+  cursor: pointer;
+}
+
